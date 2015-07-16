@@ -1,0 +1,26 @@
+idl << EOF
+.compile /home/han/IDLWorkspace71/GWAC_work/hist_nd.pro
+.run /home/han/IDLWorkspace71/GWAC_work/hist_nd.pro
+.compile /home/han/IDLWorkspace71/GWAC_work/match_2d.pro
+.run /home/han/IDLWorkspace71/GWAC_work/match_2d.pro
+.compile /home/han/IDLWorkspace71/programs/plot_figures/loadct_plot.pro
+.run /home/han/IDLWorkspace71/programs/plot_figures/loadct_plot.pro
+.compile /home/han/IDLWorkspace71/programs/coyoteprograms/cgps2raster.pro
+.run /home/han/IDLWorkspace71/programs/coyoteprograms/cgps2raster.pro
+.compile /home/han/IDLWorkspace71/programs/coyoteprograms/cgerrormsg.pro
+.run /home/han/IDLWorkspace71/programs/coyoteprograms/cgerrormsg.pro
+.compile /home/han/IDLWorkspace71/Astro_library/pro/misc/readcol.pro
+.run /home/han/IDLWorkspace71/Astro_library/pro/misc/readcol.pro
+.compile /home/han/IDLWorkspace71/Astro_library/pro/misc/remchar.pro
+.run /home/han/IDLWorkspace71/Astro_library/pro/misc/remchar.pro
+.compile /home/han/IDLWorkspace71/Astro_library/pro/misc/gettok.pro
+.run /home/han/IDLWorkspace71/Astro_library/pro/misc/gettok.pro
+.compile /home/han/IDLWorkspace71/Astro_library/pro/misc/strnumber.pro
+.run /home/han/IDLWorkspace71/Astro_library/pro/misc/strnumber.pro
+.compile /home/han/IDLWorkspace71/Catalogues/Tycho2_catalog/multisort.pro
+.run /home/han/IDLWorkspace71/Catalogues/Tycho2_catalog/multisort.pro
+.compile /home/han/IDLWorkspace71/GWAC_work/Finding_chart/angular_distance.pro
+.run /home/han/IDLWorkspace71/GWAC_work/Finding_chart/angular_distance.pro
+.compile lut_survey_selection.pro
+.run lut_survey_selection.pro
+lut_survey_selection

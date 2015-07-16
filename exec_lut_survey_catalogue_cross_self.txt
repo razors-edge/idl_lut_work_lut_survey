@@ -1,0 +1,16 @@
+idl << EOF
+.compile /home/han/IDLWorkspace71/Astro_library/pro/misc/readcol.pro
+.run /home/han/IDLWorkspace71/Astro_library/pro/misc/readcol.pro
+.compile /home/han/IDLWorkspace71/Astro_library/pro/misc/remchar.pro
+.run /home/han/IDLWorkspace71/Astro_library/pro/misc/remchar.pro
+.compile /home/han/IDLWorkspace71/Astro_library/pro/misc/gettok.pro
+.run /home/han/IDLWorkspace71/Astro_library/pro/misc/gettok.pro
+.compile /home/han/IDLWorkspace71/Astro_library/pro/misc/strnumber.pro
+.run /home/han/IDLWorkspace71/Astro_library/pro/misc/strnumber.pro
+.compile /home/han/IDLWorkspace71/Catalogues/Tycho2_catalog/multisort.pro
+.run /home/han/IDLWorkspace71/Catalogues/Tycho2_catalog/multisort.pro
+.compile /home/han/IDLWorkspace71/GWAC_work/Finding_chart/angular_distance.pro
+.run /home/han/IDLWorkspace71/GWAC_work/Finding_chart/angular_distance.pro
+.compile lut_survey_catalogue_cross_self.pro
+.run lut_survey_catalogue_cross_self.pro
+lut_survey_catalogue_cross_self
